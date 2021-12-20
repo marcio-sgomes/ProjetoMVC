@@ -5804,11 +5804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marci\\Desktop\\AG\\Agencia\\Agencia\\Agencia.csproj",
+      "projectUniqueName": "C:\\Users\\marci\\Desktop\\Marcio_Recode\\Marcio\\AG\\Agencia\\Agencia\\Agencia.csproj",
       "projectName": "Agencia",
-      "projectPath": "C:\\Users\\marci\\Desktop\\AG\\Agencia\\Agencia\\Agencia.csproj",
+      "projectPath": "C:\\Users\\marci\\Desktop\\Marcio_Recode\\Marcio\\AG\\Agencia\\Agencia\\Agencia.csproj",
       "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marci\\Desktop\\AG\\Agencia\\Agencia\\obj\\",
+      "outputPath": "C:\\Users\\marci\\Desktop\\Marcio_Recode\\Marcio\\AG\\Agencia\\Agencia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

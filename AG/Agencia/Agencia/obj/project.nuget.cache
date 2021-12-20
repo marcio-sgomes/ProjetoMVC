@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5vmvpNsed6vZIjZWQ8mmWUi+GXpWVjfeXBzubcXmIFR95mHhW5txibPc3nXJWGpLAUERDf/laaWiEkmDjUIxWg==",
+  "dgSpecHash": "YmesSGy7hRBWqmNTwp5m4oaUAL+lygp4dgtdKCKT0XQKCaDjyA3H41E5G8dHqKyTBUJ3UjqD26COBq+SIzLYZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marci\\Desktop\\AG\\Agencia\\Agencia\\Agencia.csproj",
+  "projectFilePath": "C:\\Users\\marci\\Desktop\\Marcio_Recode\\Marcio\\AG\\Agencia\\Agencia\\Agencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marci\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\marci\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
