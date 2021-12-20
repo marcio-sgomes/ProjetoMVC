@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oswald:wght@300&display=swap');
+
+.wrap{
+ max-width: 1900px;
+ width: 100%;   
+ margin: 0 auto;
+}
+
+header{
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid aqua;
+}
+
+
+
+.menu{
+    
+    height: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+    cursor: pointer;
+    text-align: center;
+    animation: oi 3s infinite alternate;
+}
+
+@keyframes oi {
+    from{
+        color: purple;
+    }
+    to{
+        color: green;
+    }
+}
+
+.menu h2{
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.menu h2:hover{
+    color: aqua;
+}
+
+.home{
+    background-image: url(img/viagem.jpg);
+    width: 100%;
+    height: 550px;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caixa-titulo{
+
+    display: flex;
+    height: 550px;
+    justify-content: space-evenly;
+    flex-direction: column;       
+}
+
+.caixa-paragrafo{
+    margin: 0 auto;
+    width: 45%;
+    height: 300px; 
+}
+.caixa-paragrafo p{
+    color:black; 
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+}
+
+
+.destinos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+}
+.destino{
+    max-width: calc(33.333% - 20px)
+    
+}
+.destino img{
+    max-width: 100%;
+    height: auto;
+}
+
+.destino h3{
+    font-family: 'Caveat', cursive;
+}
+.destino p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 10px;
+}
+
+.promocoes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+}
+.promocao{
+    max-width: calc(33.333% - 20px)
+    
+}
+.promocao img{
+    max-width: 100%;
+    height: auto;
+}
+
+.promocao h3{
+    font-family: 'Caveat', cursive;
+}
+.promocao p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 10px;
+}
+.promocao s {
+    color: red;
+  }
+  
+  .promocao span {
+    color:green;
+  }
+.pagina-titulo{
+    text-align: center;
+    font-size: 31px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contatos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+}
+.contato{
+    max-width: calc(33.333% - 20px)
+    
+}
+.contato img{
+    max-width: 100%;
+    height: auto;
+}
+
+.contato h3{
+    font-family: 'Caveat', cursive;
+}
+.contato p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 10px;
+}
+.contato s {
+    color: red;
+  }
+  
+  .contato span {
+    color:green;
+  }
+  
+  .campos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+}
+.campo{
+    max-width: calc(33.333% - 20px)
+    
+}
+.campo img{
+    max-width: 100%;
+    height: auto;
+}
+
+.campo h3{
+    font-family: 'Caveat', cursive;
+}
+.campo p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 10px;
+}
+.campo s {
+    color: red;
+  }
+  
+  .campo span {
+    color:green;
+  }
+  
+.tel{
+    max-width: 10%;
+    height: 10%;  
+}
+@media(max-width:938px)
+{
+    .caixa-paragrafo p{
+        font-size: 1.2em;
+    }
+}
+
+@media(max-width:662px)
+{
+    .caixa-paragrafo p{
+        font-size: 0.9em;
+    }
+}
+
+@media(max-width:360px)
+{
+    .caixa-paragrafo p{
+        font-size: 0.8em;
+    }
+}
+
+@media(max-width:480px)
+{
+    .menu h2{
+        font-size: 1.2em;
+    }
+}
+
+
+@media(max-width:354px)
+{
+    .menu h2{
+        font-size: 1.0em;
+    }
+}
+
+@media(max-width:312px)
+{
+    .caixa-paragrafo p{
+        font-size: 0.7em;
+    }
+}
+
+@media(max-width:280px)
+{
+    .menu h2{
+        font-size: 0.7em;
+    }
+}
